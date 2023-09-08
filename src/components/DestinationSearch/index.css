@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 5px;
+  border-radius: 10px;
+}
+.search-icon {
+  padding-top: 12px;
+}
+.list-conatiner {
+  list-style: none;
+}
+@media (min-width: 576px) {
+  .list-conatiner {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .list-conatiner {
+    flex-direction: column;
+  }
+}
+.iconSearch {
+  width: 18px;
+}
+
+.img {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
